@@ -1,0 +1,6 @@
+export LLVM=/Users/daniel/sandbox/emscripten/toolchain/llvm/bin/
+
+##/Users/daniel/sandbox/emscripten/toolchain/emscripten/emcc -O2 --closure 1 lambdas.o -o lambdas.html
+emscripten-box (master *) $ #cmake -DCMAKE_CXX_COMPILER=/Users/daniel/sandbox/emscripten/toolchain/emscripten/emcc ..
+emscripten-box (master *) $ #cmake -DCMAKE_CXX_COMPILER=/Users/daniel/sandbox/emscripten/toolchain/emscripten/emcc ..
+/Users/daniel/sandbox/emscripten/toolchain/emscripten/emcc -O2 --closure 1 lambdas.o -o lambdas.html
