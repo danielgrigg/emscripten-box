@@ -1,0 +1,5 @@
+#!/bin/sh
+
+mkdir build
+cd build
+LLVM=../../toolchain/llvm/bin ../../toolchain/emscripten/emcc -std=c++11 ../lambdas.cpp -o lambdas.html
