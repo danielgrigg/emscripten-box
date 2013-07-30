@@ -1,0 +1,9 @@
+#!/bin/bash
+
+if [[ ! -d $EM_TOOLCHAIN ]]; then
+  echo "EM_TOOLCHAIN must point to your Emscripten toolchain directory."
+  exit
+fi
+
+LLVM=$EM_TOOLCHAIN/llvm/bin
+cmake -DCMAKE_CXX_COMPILER=$EM_TOOLCHAIN/emscripten/emcc ..
